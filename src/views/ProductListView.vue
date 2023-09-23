@@ -21,9 +21,9 @@ if (product_list == null || product_list.value == undefined){
 watchEffect(update)
 
 function update(){
-    if (product_list.value){
-        product_list.value = store.sort_products(product_list.value)
+    if (product_list.value != null){
         buyed_products.value = product_list.value.products.filter(product=>product.buyed)
+        product_list.value = store.sort_products(product_list.value)
     }
 }
 

@@ -72,11 +72,11 @@ export const useProductListsStore = defineStore('productLists', {
       }
     },
     delete_shopping_list(list_id: number){
-      this.lists = this.lists.filter((list) => list.id != list_id);
+      this.lists = this.lists.filter((list: IShoppingList) => list.id != list_id);
     },
     delete_product(list_id: number, product_id: number){
       let list = this.get_list_by_id(list_id)
-      list.products = list.products.filter((product) => product.id != product_id);
+      list.products = list.products.filter((product: IProduct) => product.id != product_id);
     },
     is_complited(list: IShoppingList){
       let buyed = list.products.filter(item => item.buyed == true).length
