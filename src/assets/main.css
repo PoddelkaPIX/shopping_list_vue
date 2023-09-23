@@ -1,0 +1,19 @@
+@import './base.css';
+
+main{
+  max-width: 880px;
+  padding: 2rem;
+  margin: auto;
+  background: var(--color-background);
+  min-height: 90vh;
+  border-radius: 15px;
+  padding-bottom: 200px;
+}
+
+@media screen and (max-width: 640px) {
+  main{
+    max-width: none;
+    width: 100%;
+    padding: 5px;
+  }
+}
