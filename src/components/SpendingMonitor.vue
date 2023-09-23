@@ -50,4 +50,4 @@ import type { IProduct } from '../assets/interfaces';
             <div class="text-lg">{{remaining_amount + spent_amount}} <va-icon name="currency_ruble"></va-icon></div>
         </div>
     </div>
-</template>
+</template>vue.config

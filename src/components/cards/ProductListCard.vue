@@ -51,4 +51,4 @@ let complited = ref(percentage_completion == 100)
             </div>
     </div>
     </div>
-    </template>
+    </template>vue.configvue.configvue.configvue.config

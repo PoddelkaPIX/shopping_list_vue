@@ -54,4 +54,4 @@ function find_complited(){
         :products="products"
     />
   </div>
-</template>
+</template>vue.configvue.configvue.configvue.config

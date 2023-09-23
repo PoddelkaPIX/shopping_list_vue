@@ -19,3 +19,4 @@ export default defineComponent({
    </div>
 </template>
 
+vue.config

@@ -32,4 +32,4 @@ import { ref, defineComponent, type Ref, watchEffect } from 'vue';
         <va-progress-bar :model-value="percentage_completion"></va-progress-bar>
         <div>{{complited}}/{{maximum}}</div>
     </div>
-</template>
+</template>vue.config

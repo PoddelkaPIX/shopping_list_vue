@@ -45,4 +45,4 @@ const store = useProductListsStore()
         >
         </va-button>
     </div>
-</template>
+</template>vue.configvue.configvue.configvue.config

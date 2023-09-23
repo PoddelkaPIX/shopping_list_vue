@@ -15,3 +15,4 @@ import HomeView from './views/HomeView.vue'
 <style scoped>
 
 </style>
+vue.configvue.configvue.config

@@ -51,4 +51,4 @@ function update(){
         :products="product_list?.products ? product_list.products: []"
     />
     
-</template>
+</template>vue.configvue.configvue.configvue.config

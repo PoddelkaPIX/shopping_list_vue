@@ -24,4 +24,4 @@ import type { PropType } from 'vue';
         }
     }
 }
-</script>
+</script>vue.configvue.config
