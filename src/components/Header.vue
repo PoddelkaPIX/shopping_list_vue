@@ -6,6 +6,6 @@
 
 <template>
     <header class="bg-white p-2 w-auto mb-2 shadow-md">
-        Гнебедюк А. С
+        Гнебедюк А. С.
     </header>
 </template>vue.configvue.configvue.config
