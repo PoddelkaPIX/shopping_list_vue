@@ -64,6 +64,7 @@ export const useProductListsStore = defineStore('productLists', {
       measurement: ""
     }){
       for (let list of this.lists){
+        if (list == null){return}
         if (list.id == list_id){
           product.id = list.products.length + 1
           list.products.unshift(product)
@@ -76,6 +77,7 @@ export const useProductListsStore = defineStore('productLists', {
     },
     delete_product(list_id: number, product_id: number){
       let list = this.get_list_by_id(list_id)
+      if (list == null){return}
       list.products = list.products.filter((product: IProduct) => product.id != product_id);
     },
     is_complited(list: IShoppingList){

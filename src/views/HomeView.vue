@@ -1,11 +1,11 @@
 
 <script setup lang="ts">
-import { storeToRefs } from 'pinia';
+import { storeToRefs, type StoreDefinition } from 'pinia';
 import ProductListCard from "../components/cards/ProductListCard.vue"
 import FixedProgressMonitor from "../components/FixedProgressMonitor.vue"
 import { useProductListsStore } from '@/stores/ProductLists';
 import { ref, watchEffect, type Ref } from 'vue';
-import type { IProduct } from '@/assets/interfaces';
+import type { IProduct, IShoppingList } from '@/assets/interfaces';
 
 const store = useProductListsStore()
 
